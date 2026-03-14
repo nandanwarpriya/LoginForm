@@ -67,6 +67,11 @@
     color:#999;
 }
 
+#togglePassword{
+    margin-right:15px;
+    cursor:pointer;
+    color:rgb(72, 72, 247);
+}
 form p{
     text-align:left;
     font-size:13px;

@@ -20,17 +20,18 @@
                 <div class="input-group">
                     <div class="input-field namefield">
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="name">
+                        <input type="text" placeholder="name" id="name" pattern = "[A-Za-z ]+" title="Name should contain only letters" required>
                     </div> <!--end of input-field-->
 
                     <div class="input-field">
                         <i class="fa-solid fa-at"></i>
-                        <input type="email" placeholder="email">
+                        <input type="email" placeholder="email" id="email" required>
                     </div> <!--end of input-field-->
 
                     <div class="input-field">
                         <i class="fa-solid fa-key"></i>
-                        <input type="password" placeholder="password">
+                        <input type="password" placeholder="password" id="password" required>
+                        <i class="fa-solid fa-eye" id="togglePassword"></i>
                     </div> <!--end of input-field-->
 
                     <p><span class="text">password suggestions</span> 
